@@ -3,7 +3,7 @@ import { BrowserModule, provideClientHydration, withEventReplay } from '@angular
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MyLibModule } from 'my-lib';
+import { MyLibModule } from '../../projects/my-lib/src/lib/my-lib.module';
 
 @NgModule({
   declarations: [
